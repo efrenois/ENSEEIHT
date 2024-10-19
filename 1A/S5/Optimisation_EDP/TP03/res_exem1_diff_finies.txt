@@ -1,0 +1,16 @@
+Algorithme de Gauss-Newton
+Vraie Jacobienne =0
+Methode diff finies = avants
+ndigits :  8 
+------------------------------------------------------------------
+         k     ||f'(beta)||   f(beta)      ||delta||    exitflag 
+------------------------------------------------------------------
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('mrdivide')" style="font-weight:bold"> / </a>
+Matrix dimensions must agree.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('diff_finies_avant', '/home/efrenois/Documents/1A/Optimisation/TP03/diff_finies_avant.m', 29)" style="font-weight:bold">diff_finies_avant</a> (<a href="matlab: opentoline('/home/efrenois/Documents/1A/Optimisation/TP03/diff_finies_avant.m',29,0)">line 29</a>)
+    Jac(:,i)= (fun(x+h(i)*v)-fun(x))/h;
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('exem1_diff_finies', '/home/efrenois/Documents/1A/Optimisation/TP03/exem1_diff_finies.m', 92)" style="font-weight:bold">exem1_diff_finies</a> (<a href="matlab: opentoline('/home/efrenois/Documents/1A/Optimisation/TP03/exem1_diff_finies.m',92,0)">line 92</a>)
+	    Jres = diff_finies_avant(@res1,beta0, ndigits);
+} 

@@ -1,0 +1,39 @@
+Algorithme de Gauss-Newton
+ndigits 9 
+Vraie Jacobienne = 0
+Methode diff finies = avants
+------------------------------------------------------------------
+         k     ||f'(beta)||   f(beta)      ||s||       exitflag 
+------------------------------------------------------------------
+{Unable to perform assignment because the indices on the left side are
+not compatible with the size of the right side.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('diff_finies_avant', '/home/efrenois/Documents/1A/Optimisation/TP03/diff_finies_avant.m', 29)" style="font-weight:bold">diff_finies_avant</a> (<a href="matlab: opentoline('/home/efrenois/Documents/1A/Optimisation/TP03/diff_finies_avant.m',29,0)">line 29</a>)
+    Jac(:,i)= (fun(x+h(i)*v)-fun(x))/h;
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('C14_diff_finies', '/home/efrenois/Documents/1A/Optimisation/TP03/C14_diff_finies.m', 112)" style="font-weight:bold">C14_diff_finies</a> (<a href="matlab: opentoline('/home/efrenois/Documents/1A/Optimisation/TP03/C14_diff_finies.m',112,0)">line 112</a>)
+	    Jres = diff_finies_avant( @(beta) res_C14_ref(beta,Ti,Ai), beta0, ndigits);
+} 
+exem1_diff_finies
+Algorithme de Gauss-Newton
+ndigits 9 
+Vraie Jacobienne = 0
+Methode diff finies = avants
+------------------------------------------------------------------
+         k     ||f'(beta)||   f(beta)      ||s||       exitflag 
+------------------------------------------------------------------
+Unable to perform assignment because
+the indices on the left side are not
+compatible with the size of the right
+side.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('diff_finies_avant', '/home/efrenois/Documents/1A/Optimisation/TP03/diff_finies_avant.m', 29)" style="font-weight:bold">diff_finies_avant</a> (<a href="matlab: opentoline('/home/efrenois/Documents/1A/Optimisation/TP03/diff_finies_avant.m',29,0)">line 29</a>)
+    Jac(:,i)=
+    (fun(x+h(i)*v)-fun(x))/h;
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('C14_diff_finies', '/home/efrenois/Documents/1A/Optimisation/TP03/C14_diff_finies.m', 112)" style="font-weight:bold">C14_diff_finies</a> (<a href="matlab: opentoline('/home/efrenois/Documents/1A/Optimisation/TP03/C14_diff_finies.m',112,0)">line 112</a>)
+	    Jres = diff_finies_avant(
+        @(beta)
+        res_C14_ref(beta,Ti,Ai),
+        beta0, ndigits);
+
