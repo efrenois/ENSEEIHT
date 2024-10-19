@@ -1,0 +1,17 @@
+*.ali
+*.o
+*.pdf
+exemple-fichier.txt
+exemple_text_io.adb
+exemples/
+b~pagerank.adb
+b~pagerank.ads
+pagerank
+b~test_mp.adb
+b~test_mp.ads
+test_mp
+b~test_mc.adb
+b~test_mc.ads
+test_mc
+*.pr
+*.prw
